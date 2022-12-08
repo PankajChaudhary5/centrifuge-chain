@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["MaxTrancheNameLengthBytes","The max length in bytes allowed for a tranche token name"],["MaxTrancheSymbolLengthBytes","The max length in bytes allowed for a tranche token symbol"]]};

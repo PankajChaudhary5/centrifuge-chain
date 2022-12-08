@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["general_key",""]],"struct":[["FixedConversionRateProvider","Our FixedConversionRateProvider, used to charge XCM-related fees for tokens registered in the asset registry that were not already handled by native Trader rules."]]};

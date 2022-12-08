@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["pallet_nft"] = [{"text":"impl <a class=\"trait\" href=\"proofs/trait.Hasher.html\" title=\"trait proofs::Hasher\">Hasher</a> for <a class=\"struct\" href=\"pallet_nft/types/struct.BundleHasher.html\" title=\"struct pallet_nft::types::BundleHasher\">BundleHasher</a>","synthetic":false,"types":["pallet_nft::types::BundleHasher"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["Rate","A fixed point number representation in the range. _Fixed Point 128 bits unsigned with 27 precision for Rate"]],"trait":[["FixedPointNumberExtension",""]]};

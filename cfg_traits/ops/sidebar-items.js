@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["NumSign","Numerical Sign"]],"mod":[["ensure","Arithmetic operations with safe error handling."]],"trait":[["Signum","Request the signum of a number."]]};

@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["centrifuge_chain"] = [{"text":"impl CliConfiguration&lt;<a class=\"struct\" href=\"centrifuge_chain/cli/struct.RelayChainCli.html\" title=\"struct centrifuge_chain::cli::RelayChainCli\">RelayChainCli</a>&gt; for <a class=\"struct\" href=\"centrifuge_chain/cli/struct.RelayChainCli.html\" title=\"struct centrifuge_chain::cli::RelayChainCli\">RelayChainCli</a>","synthetic":false,"types":["centrifuge_chain::cli::RelayChainCli"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

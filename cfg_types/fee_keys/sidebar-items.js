@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["FeeKey","Different fees keys available. Each variant represents a balance previously determined and configured."]]};

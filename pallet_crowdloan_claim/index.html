@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Crowdloan claim pallet"><meta name="keywords" content="rust, rustlang, rust-lang, pallet_crowdloan_claim"><title>pallet_crowdloan_claim - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../SourceSerif4-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../FiraSans-Regular.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../FiraSans-Medium.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../SourceCodePro-Regular.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../SourceSerif4-Bold.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../SourceCodePro-Semibold.ttf.woff2"><link rel="stylesheet" type="text/css" href="../normalize.css"><link rel="stylesheet" type="text/css" href="../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../ayu.css" disabled><link rel="stylesheet" type="text/css" href="../dark.css" disabled><link rel="stylesheet" type="text/css" href="../light.css" id="themeStyle"><script id="default-settings" ></script><script src="../storage.js"></script><script defer src="../crates.js"></script><script defer src="../main.js"></script><noscript><link rel="stylesheet" href="../noscript.css"></noscript><link rel="alternate icon" type="image/png" href="../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../favicon-32x32.png"><link rel="icon" type="image/svg+xml" href="../favicon.svg"></head><body class="rustdoc mod crate"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="sidebar-logo" href="../pallet_crowdloan_claim/index.html"><div class="logo-container"><img class="rust-logo" src="../rust-logo.svg" alt="logo"></div></a><h2 class="location"></h2></nav><nav class="sidebar"><a class="sidebar-logo" href="../pallet_crowdloan_claim/index.html"><div class="logo-container"><img class="rust-logo" src="../rust-logo.svg" alt="logo"></div></a><h2 class="location"><a href="#">Crate pallet_crowdloan_claim</a></h2><div class="sidebar-elems"><div class="block"><ul><li class="version">Version 0.1.0</li><li><a id="all-types" href="all.html">All Items</a></li></ul></div><section><div class="block"><ul><li><a href="#reexports">Re-exports</a></li><li><a href="#modules">Modules</a></li></ul></div></section></div></nav><main><div class="width-limiter"><div class="sub-container"><a class="sub-logo-container" href="../pallet_crowdloan_claim/index.html"><img class="rust-logo" src="../rust-logo.svg" alt="logo"></a><nav class="sub"><form class="search-form"><div class="search-container"><span></span><input class="search-input" name="search" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><button type="button">?</button></div><div id="settings-menu" tabindex="-1"><a href="../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../wheel.svg"></a></div></div></form></nav></div><section id="main-content" class="content"><div class="main-heading"><h1 class="fqn"><span class="in-band">Crate <a class="mod" href="#">pallet_crowdloan_claim</a><button id="copy-path" onclick="copy_path(this)" title="Copy item path to clipboard"><img src="../clipboard.svg" width="19" height="18" alt="Copy item path"></button></span></h1><span class="out-of-band"><a class="srclink" href="../src/pallet_crowdloan_claim/lib.rs.html#17-750">source</a> · <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">[<span class="inner">&#x2212;</span>]</a></span></div><details class="rustdoc-toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><h2 id="crowdloan-claim-pallet"><a href="#crowdloan-claim-pallet">Crowdloan claim pallet</a></h2>
+<p>A pallet used for claiming reward payouts for crowdloan campaigns. This
+does not implement the rewarding strategy, that is the role of the
+[<code>pallet-crowdloan-reward</code>] pallet.</p>
+<ul>
+<li>[<code>Config</code>]</li>
+<li>[<code>Call</code>]</li>
+<li>[<code>Pallet</code>]</li>
+</ul>
+<h3 id="overview"><a href="#overview">Overview</a></h3>
+<p>This pallet is used to proces reward claims from contributors who locked
+tokens on the Polkadot/Kusama relay chain for participating in a crowdloan
+campaign for a parachain slot acquisition.</p>
+<p>This Pallet is intimately bound to the [<code>pallet-crowdloan-reward</code>] pallet, where
+the rewarding strategy is implemented.</p>
+<h3 id="terminology"><a href="#terminology">Terminology</a></h3>
+<p>For information on terms and concepts used in this pallet,
+please refer to the pallet’ specification document.</p>
+<h3 id="goals"><a href="#goals">Goals</a></h3>
+<p>The aim of this pallet is to ensure that a contributor who’s claiming a reward
+is eligible for it and avoid potential attacks, such as, for instance, Denial of
+Service (DoS) or spams by requiring fee payment.</p>
+<h3 id="usage"><a href="#usage">Usage</a></h3><h3 id="interface"><a href="#interface">Interface</a></h3><h4 id="supported-origins"><a href="#supported-origins">Supported Origins</a></h4>
+<p>Valid origin is an administrator or root.</p>
+<h4 id="types"><a href="#types">Types</a></h4><h4 id="events"><a href="#events">Events</a></h4><h4 id="errors"><a href="#errors">Errors</a></h4><h4 id="dispatchable-functions"><a href="#dispatchable-functions">Dispatchable Functions</a></h4>
+<p>Callable functions (or extrinsics), also considered as transactions, materialize the
+pallet contract. Here’s the callable functions implemented in this Pallet:</p>
+<p>[<code>claim_reward</code>]</p>
+<h4 id="public-functions"><a href="#public-functions">Public Functions</a></h4><h3 id="genesis-configuration"><a href="#genesis-configuration">Genesis Configuration</a></h3><h3 id="dependencies"><a href="#dependencies">Dependencies</a></h3>
+<p>As stated in the overview of this pallet, the latter relies on the [<code>pallet-crowdloan-reward</code>]
+pallet to implement the specific rewarding strategy of a parachain.
+A rewarding pallet must implement the [<code>pallet-crowdloan-claim::traits::Reward</code>] trait that is
+declared in this pallet.
+For this pallet to be able to interact with a reward pallet, it must be loosely coupled to the
+former using an associated type which includes the [<code>pallet-crowdloan-claim::traits::Reward</code>]
+trait.</p>
+<h3 id="references"><a href="#references">References</a></h3>
+<ul>
+<li><a href="https://substrate.dev/docs/en/tutorials/build-a-dapp/pallet">Building a Custom Pallet</a>. Retrieved April 5th, 2021.</li>
+</ul>
+<h3 id="credits"><a href="#credits">Credits</a></h3>
+<p>The Centrifugians Tribe <a href="mailto:tribe@centrifuge.io">tribe@centrifuge.io</a></p>
+</div></details><h2 id="reexports" class="small-section-header"><a href="#reexports">Re-exports</a></h2><div class="item-table"><div class="item-row"><div class="item-left import-item"><code>pub use <a class="mod" href="pallet/index.html" title="mod pallet_crowdloan_claim::pallet">pallet</a>::*;</code></div><div class="item-right docblock-short"></div></div><div class="item-row"><div class="item-left import-item" id="reexport.WeightInfo"><code>pub use crate::weights::<a class="trait" href="weights/trait.WeightInfo.html" title="trait pallet_crowdloan_claim::weights::WeightInfo">WeightInfo</a>;</code></div><div class="item-right docblock-short"></div></div></div><h2 id="modules" class="small-section-header"><a href="#modules">Modules</a></h2><div class="item-table"><div class="item-row"><div class="item-left module-item"><a class="mod" href="pallet/index.html" title="pallet_crowdloan_claim::pallet mod">pallet</a></div><div class="item-right docblock-short"><p>The module that hosts all the
+<a href="https://docs.substrate.io/main-docs/build/events-errors/">FRAME</a>
+types needed to add this pallet to a
+runtime.</p>
+</div></div><div class="item-row"><div class="item-left module-item"><a class="mod" href="weights/index.html" title="pallet_crowdloan_claim::weights mod">weights</a></div><div class="item-right docblock-short"><p>Autogenerated weights for pallet_crowdloan_claim</p>
+</div></div></div></section></div></main><div id="rustdoc-vars" data-root-path="../" data-current-crate="pallet_crowdloan_claim" data-themes="ayu,dark,light" data-resource-suffix="" data-rustdoc-version="1.64.0-nightly (f6f9d5e73 2022-08-04)" ></div></body></html>

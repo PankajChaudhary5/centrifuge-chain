@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["cfg_types"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/arith/trait.Mul.html\" title=\"trait core::ops::arith::Mul\">Mul</a>&lt;<a class=\"struct\" href=\"cfg_types/fixed_point/struct.Rate.html\" title=\"struct cfg_types::fixed_point::Rate\">Rate</a>&gt; for <a class=\"struct\" href=\"cfg_types/fixed_point/struct.Rate.html\" title=\"struct cfg_types::fixed_point::Rate\">Rate</a>","synthetic":false,"types":["cfg_types::fixed_point::Rate"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

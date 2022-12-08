@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["development_runtime"] = [{"text":"impl XcmTransact for <a class=\"struct\" href=\"development_runtime/struct.NullTransactor.html\" title=\"struct development_runtime::NullTransactor\">NullTransactor</a>","synthetic":false,"types":["development_runtime::NullTransactor"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

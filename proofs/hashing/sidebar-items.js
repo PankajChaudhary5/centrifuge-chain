@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["bundled_hash","Return a bundled hash from a list of hashes."],["bundled_hash_from_proofs","Return a bundled hash from a list of proofs."],["hash_of","computes hash of the a + b"],["sort_hash_of","computes sorted hash of the a and b if a < b: hash(a+b) else: hash(b+a)"]]};

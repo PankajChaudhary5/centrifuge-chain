@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["Account","Type that contains the stake properties of an account"],["Currency","Type that contains the stake properties of stake class"],["Group","Type that contains the stake properties of a stake group"],["Mechanism",""]]};

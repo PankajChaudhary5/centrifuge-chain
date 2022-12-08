@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["development_runtime"] = [{"text":"impl <a class=\"trait\" href=\"pallet_pool_registry/pallet/trait.Config.html\" title=\"trait pallet_pool_registry::pallet::Config\">Config</a> for <a class=\"struct\" href=\"development_runtime/struct.Runtime.html\" title=\"struct development_runtime::Runtime\">Runtime</a>","synthetic":false,"types":["development_runtime::Runtime"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

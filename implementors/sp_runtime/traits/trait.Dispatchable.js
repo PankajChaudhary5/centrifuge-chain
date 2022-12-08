@@ -1,0 +1,5 @@
+(function() {var implementors = {};
+implementors["altair_runtime"] = [{"text":"impl Dispatchable for <a class=\"enum\" href=\"altair_runtime/enum.Call.html\" title=\"enum altair_runtime::Call\">Call</a>","synthetic":false,"types":["altair_runtime::Call"]}];
+implementors["centrifuge_runtime"] = [{"text":"impl Dispatchable for <a class=\"enum\" href=\"centrifuge_runtime/enum.Call.html\" title=\"enum centrifuge_runtime::Call\">Call</a>","synthetic":false,"types":["centrifuge_runtime::Call"]}];
+implementors["development_runtime"] = [{"text":"impl Dispatchable for <a class=\"enum\" href=\"development_runtime/enum.Call.html\" title=\"enum development_runtime::Call\">Call</a>","synthetic":false,"types":["development_runtime::Call"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

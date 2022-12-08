@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["FulfillmentWithPrice",""],["Order","The order type of the pallet."],["SummarizedOrders","A convenience struct to easily pass around the accumulated orders for all tranches, which is of sole interest to the pool."],["TotalOrder",""]]};

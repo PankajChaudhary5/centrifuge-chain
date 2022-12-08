@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["lock","Use it in any tests you use `MockRewards` to avoid sync issues over the same static state"]],"mod":[["__mock_MockRewards",""],["__mock_MockRewards_AccountRewards_4165779952534038023",""],["__mock_MockRewards_CurrencyGroupChange",""],["__mock_MockRewards_GroupRewards",""]],"struct":[["MockRewards",""]]};

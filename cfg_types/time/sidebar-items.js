@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["TimeProvider","A struct we need as the pallets implementing trait Time do not implement TypeInfo. This wraps this and implements everything manually."]]};

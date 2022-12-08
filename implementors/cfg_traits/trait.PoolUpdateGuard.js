@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["altair_runtime"] = [{"text":"impl <a class=\"trait\" href=\"cfg_traits/trait.PoolUpdateGuard.html\" title=\"trait cfg_traits::PoolUpdateGuard\">PoolUpdateGuard</a> for <a class=\"struct\" href=\"altair_runtime/struct.UpdateGuard.html\" title=\"struct altair_runtime::UpdateGuard\">UpdateGuard</a>","synthetic":false,"types":["altair_runtime::UpdateGuard"]}];
+implementors["development_runtime"] = [{"text":"impl <a class=\"trait\" href=\"cfg_traits/trait.PoolUpdateGuard.html\" title=\"trait cfg_traits::PoolUpdateGuard\">PoolUpdateGuard</a> for <a class=\"struct\" href=\"development_runtime/struct.UpdateGuard.html\" title=\"struct development_runtime::UpdateGuard\">UpdateGuard</a>","synthetic":false,"types":["development_runtime::UpdateGuard"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

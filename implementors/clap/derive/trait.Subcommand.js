@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["centrifuge_chain"] = [{"text":"impl Subcommand for <a class=\"enum\" href=\"centrifuge_chain/cli/enum.Subcommand.html\" title=\"enum centrifuge_chain::cli::Subcommand\">Subcommand</a>","synthetic":false,"types":["centrifuge_chain::cli::Subcommand"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

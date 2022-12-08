@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["development_runtime"] = [{"text":"impl <a class=\"trait\" href=\"cfg_traits/trait.CurrencyPrice.html\" title=\"trait cfg_traits::CurrencyPrice\">CurrencyPrice</a>&lt;<a class=\"enum\" href=\"development_runtime/enum.CurrencyId.html\" title=\"enum development_runtime::CurrencyId\">CurrencyId</a>&gt; for <a class=\"struct\" href=\"development_runtime/struct.CurrencyPriceSource.html\" title=\"struct development_runtime::CurrencyPriceSource\">CurrencyPriceSource</a>","synthetic":false,"types":["development_runtime::CurrencyPriceSource"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

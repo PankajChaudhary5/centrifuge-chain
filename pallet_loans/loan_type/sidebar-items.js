@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["LoanType","different types of loans"]],"struct":[["BulletLoan","The data structure for Bullet loan type"],["CreditLine","The data structure for Credit line loan type"],["CreditLineWithMaturity","The data structure for Credit line with maturity loan type"]]};

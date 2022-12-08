@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["AuthorityOrigin","The OrmlAssetRegistry::AuthorityOrigin impl"],["CustomAssetProcessor",""]]};

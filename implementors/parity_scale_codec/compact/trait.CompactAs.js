@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["cfg_primitives"] = [{"text":"impl CompactAs for <a class=\"struct\" href=\"cfg_primitives/types/struct.TrancheWeight.html\" title=\"struct cfg_primitives::types::TrancheWeight\">TrancheWeight</a>","synthetic":false,"types":["cfg_primitives::types::TrancheWeight"]},{"text":"impl CompactAs for <a class=\"struct\" href=\"cfg_primitives/types/struct.ItemId.html\" title=\"struct cfg_primitives::types::ItemId\">ItemId</a>","synthetic":false,"types":["cfg_primitives::types::ItemId"]}];
+implementors["cfg_types"] = [{"text":"impl CompactAs for <a class=\"struct\" href=\"cfg_types/fixed_point/struct.Rate.html\" title=\"struct cfg_types::fixed_point::Rate\">Rate</a>","synthetic":false,"types":["cfg_types::fixed_point::Rate"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"trait":[["AnchorApi","Runtime Api for the pallet-anchors, to be implemented by and for a specific runtime that uses that pallet."],["PoolsApi","Runtime for pallet-pool-system."]]};

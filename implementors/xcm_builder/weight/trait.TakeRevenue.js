@@ -1,0 +1,5 @@
+(function() {var implementors = {};
+implementors["altair_runtime"] = [{"text":"impl TakeRevenue for <a class=\"struct\" href=\"altair_runtime/xcm/struct.ToTreasury.html\" title=\"struct altair_runtime::xcm::ToTreasury\">ToTreasury</a>","synthetic":false,"types":["altair_runtime::xcm::ToTreasury"]}];
+implementors["centrifuge_runtime"] = [{"text":"impl TakeRevenue for <a class=\"struct\" href=\"centrifuge_runtime/xcm/struct.ToTreasury.html\" title=\"struct centrifuge_runtime::xcm::ToTreasury\">ToTreasury</a>","synthetic":false,"types":["centrifuge_runtime::xcm::ToTreasury"]}];
+implementors["development_runtime"] = [{"text":"impl TakeRevenue for <a class=\"struct\" href=\"development_runtime/xcm/struct.ToTreasury.html\" title=\"struct development_runtime::xcm::ToTreasury\">ToTreasury</a>","synthetic":false,"types":["development_runtime::xcm::ToTreasury"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["set_block_number_timestamp","Function that initializes the frame system & Aura, so a timestamp can be set and pass validation"],["vec_to_fixed_array","Build a fixed-size array using as many elements from `src` as possible without overflowing and ensuring that the array is 0 padded in the case where `src.len()` is smaller than S."]]};

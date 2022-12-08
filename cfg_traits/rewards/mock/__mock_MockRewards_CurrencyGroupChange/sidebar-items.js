@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["__attach_currency",""],["__currency_group",""]]};

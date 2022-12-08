@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["InvestmentAccount","A representation of a investment identifier that can be converted to an account address"],["InvestmentInfo",""]]};

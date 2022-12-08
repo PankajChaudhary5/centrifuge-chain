@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["centrifuge_runtime"] = [{"text":"impl <a class=\"trait\" href=\"pallet_nft/pallet/trait.Config.html\" title=\"trait pallet_nft::pallet::Config\">Config</a> for <a class=\"struct\" href=\"centrifuge_runtime/struct.Runtime.html\" title=\"struct centrifuge_runtime::Runtime\">Runtime</a>","synthetic":false,"types":["centrifuge_runtime::Runtime"]}];
+implementors["development_runtime"] = [{"text":"impl <a class=\"trait\" href=\"pallet_nft/pallet/trait.Config.html\" title=\"trait pallet_nft::pallet::Config\">Config</a> for <a class=\"struct\" href=\"development_runtime/struct.Runtime.html\" title=\"struct development_runtime::Runtime\">Runtime</a>","synthetic":false,"types":["development_runtime::Runtime"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

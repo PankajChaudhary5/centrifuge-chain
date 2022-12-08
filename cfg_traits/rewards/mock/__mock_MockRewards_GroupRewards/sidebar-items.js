@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["__group_stake",""],["__reward_group",""]]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["CustomServerError","Our custom error type for RPC server errors"]],"fn":[["create_full","Instantiate all Full RPC extensions."],["invalid_params_error",""],["runtime_error",""]],"mod":[["anchors",""],["pools",""]],"type":[["RpcExtension","A type representing all RPC extensions."]]};

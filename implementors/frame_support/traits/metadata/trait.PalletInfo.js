@@ -1,0 +1,5 @@
+(function() {var implementors = {};
+implementors["altair_runtime"] = [{"text":"impl PalletInfo for <a class=\"struct\" href=\"altair_runtime/struct.PalletInfo.html\" title=\"struct altair_runtime::PalletInfo\">PalletInfo</a>","synthetic":false,"types":["altair_runtime::PalletInfo"]}];
+implementors["centrifuge_runtime"] = [{"text":"impl PalletInfo for <a class=\"struct\" href=\"centrifuge_runtime/struct.PalletInfo.html\" title=\"struct centrifuge_runtime::PalletInfo\">PalletInfo</a>","synthetic":false,"types":["centrifuge_runtime::PalletInfo"]}];
+implementors["development_runtime"] = [{"text":"impl PalletInfo for <a class=\"struct\" href=\"development_runtime/struct.PalletInfo.html\" title=\"struct development_runtime::PalletInfo\">PalletInfo</a>","synthetic":false,"types":["development_runtime::PalletInfo"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

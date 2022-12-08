@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["Pools",""]],"trait":[["PoolsApiClient","Client implementation for the `PoolsApi` RPC API."],["PoolsApiServer","Server trait implementation for the `PoolsApi` RPC API."]]};
